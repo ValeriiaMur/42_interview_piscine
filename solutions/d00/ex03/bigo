@@ -1,0 +1,2 @@
+On average, the big O of Hash Table is O(1). In the worst case, it's O(n)
+where n is the number of elements.

@@ -1,0 +1,6 @@
+This search is known as a simple search. Even though binary search works faster, we can't apply it here
+because we are working with an unsorted list. The time it took to execute this algorithm called linear time 
+or O(n).N stands for a number of operations.
+The longer out list, the longer it will take to find the needed entry. Since big O notation establishes 
+a worst-case run time, it means we'll have to check all of the nearly 100.000 artworks to find the right one
+(in the worst case when it's the last one in the list).

@@ -1,0 +1,12 @@
+
+For text of length n and p patterns of combined length m, 
+its average and best case running time is O(n+m) in space O(p), 
+but its worst-case time is O(nm). 
+
+N is thre length of test.
+P stands for patterns 
+M is their combined lenght
+
+The effectiveness of the hash computation function
+is a deciding factor during the calculation of time complexity of this
+algorithm.

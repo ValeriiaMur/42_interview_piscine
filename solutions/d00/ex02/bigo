@@ -1,0 +1,2 @@
+Binary search has time complexity of O(log n) where n is as number of elements in the array.
+It can be applied only to a sorted array. It's worst case space complexity is O(1).

@@ -1,0 +1,7 @@
+With both sub-sorts performed recursively, quick sort requires O(n)
+extra space for the recursion stack in the worst case when recursion 
+is not balanced.
+
+Time complexity:  O(n2) in the worst case. On Average, O(n log (n))
+Space cimplexity: O(log (n)) where n is the number os items that should
+be sorted
