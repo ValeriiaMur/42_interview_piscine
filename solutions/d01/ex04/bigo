@@ -1,0 +1,9 @@
+A queue is a collection in which the entities in the collection are kept in order.
+All operations are in O(1) space and time.
+This is First-In-First-Out (FIFO) data structure. 
+
+**
+
+The difference between stacks and queues is in removing: 
+-In a stack we remove the item the most recently added; 
+-In a queue, we remove the item the least recently added.

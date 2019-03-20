@@ -13,11 +13,13 @@
 	Queue
 */
 
+//struct of a stack node
 struct s_node {
 	char          *message;
 	struct s_node *next;
 };
 
+//queue is made of 2 stacks
 struct s_queue {
   struct s_node *first;
 	struct s_node *last;

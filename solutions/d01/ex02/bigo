@@ -1,2 +1,2 @@
-Main stack functions push() and pop() all take O(1) time. 
-We do not run any loop in any of these operations.
+Main stack functions push() and pop() all take O(1) time. In worst case scenario,
+the space complexity is O(n) where n is the number of elements.
