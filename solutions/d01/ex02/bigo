@@ -1,0 +1,2 @@
+Main stack functions push() and pop() all take O(1) time. 
+We do not run any loop in any of these operations.

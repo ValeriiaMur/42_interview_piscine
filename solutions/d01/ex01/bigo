@@ -1,0 +1,3 @@
+ The func is being called recursively n times(where n is the number 
+ of items on out list) before reaching base case 
+ so its O(n) or linear time.
