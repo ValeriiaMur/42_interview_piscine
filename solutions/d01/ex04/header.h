@@ -44,6 +44,7 @@ int isEmpty(struct s_queue *queue);
 /*--------------------------------
   &  your own other function
   --------------------------------*/
-
+void push(struct s_node *stack1, char *message);
+char *pop(struct s_node *stack2);
 
 #endif
