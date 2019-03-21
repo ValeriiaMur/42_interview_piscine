@@ -1,0 +1,3 @@
+There are two main solutions that we can implement.
+The simpliest one is the Merge Sort for linked list.
+It works in O(n Log n) time.
