@@ -1,0 +1,5 @@
+Insertion sort is a sorting algorithm based on comparison of elements.
+Insertion sort is stable and has quadratic asymptotic complexity
+O(n^2). 
+
+Auxiliary Space: O(1)

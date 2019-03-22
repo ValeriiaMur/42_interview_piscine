@@ -1,0 +1,8 @@
+QuickSort is a Divide and Conquer algorithm. 
+It picks an element as pivot and partitions the given array around 
+the picked pivot.
+
+Worst-case performance	O(n2)
+Best-case performance	O(n log n)
+Average performance	O(n log n)
+Worst-case space complexity	O(n) 

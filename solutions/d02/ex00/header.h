@@ -30,4 +30,6 @@ void exitWithMsg(char *msg);
   &  your own other function
   --------------------------------*/
 
+void	ft_swap(int *a, int *b);
+
 #endif
