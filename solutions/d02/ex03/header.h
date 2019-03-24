@@ -25,6 +25,7 @@ void printPlayers(struct s_player **players);
 /*--------------------------------
   &  your own other function
   --------------------------------*/
-
+void    merging(struct s_player **players, int left, int right);
+void    merge_subarr(struct s_player **players, int left, int right, int mid);
 
 #endif
