@@ -1,0 +1,4 @@
+In sorting n objects, merge sort has an average and worst-case 
+performance of O(n log n).
+
+Space complexity is O(n) or O(1) with linked lists.
