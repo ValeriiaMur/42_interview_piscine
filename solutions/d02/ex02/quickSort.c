@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   quickSort.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vmuradia <vmuradia@student.42.fr>          +#+  +:+       +#+        */
+/*   By: valeriiamuradian <valeriiamuradian@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/21 17:43:49 by vmuradia          #+#    #+#             */
-/*   Updated: 2019/03/21 18:37:10 by vmuradia         ###   ########.fr       */
+/*   Updated: 2019/03/23 20:26:23 by valeriiamur      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int partition(struct s_player **players, int low, int high)
 
 	for (int j = low; j <= high - 1; j++)
 	{
-		if (players[j]->score <= pivot->score)
+		if (players[j]->score >= pivot->score) //change here to make ascending
 		{
 			i++;
 			ft_swap(players, i, j);
