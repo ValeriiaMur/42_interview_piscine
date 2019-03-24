@@ -1,0 +1,15 @@
+Counting sort is a sorting technique based on keys between a 
+specific range. It works by counting the number of objects 
+having distinct key values (kind of hashing). 
+Then modify the count array such that each element at each index 
+stores the sum of previous counts. 
+Calculate the position of each object in the output sequence.
+
+***
+
+Linear time. Counting sort runs in O(n)O(n) time, making it 
+asymptotically faster than comparison-based sorting algorithms.
+
+Space cost. If the range of potential values is big, then 
+counting sort requires a lot of space (perhaps more than 
+O(n)).
