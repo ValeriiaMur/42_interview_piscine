@@ -25,7 +25,7 @@ int main(void)
 	--------------------*/
 
 	printArray(rocks, n);
-	// printf("Value %d at index %d\n", value, searchShifted(rocks, n, value));
+	printf("Value %d at index %d\n", value, searchShifted(rocks, n, value));
 }
 
 

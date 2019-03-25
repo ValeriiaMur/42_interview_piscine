@@ -19,6 +19,7 @@ void printArray(int *arr, int n);
 /*--------------------------------
   &  your own other function
   --------------------------------*/
-
+int binarySearch(int *rocks, int low, int high, int value);
+int findPivot(int *rocks, int low, int high);
 
 #endif
