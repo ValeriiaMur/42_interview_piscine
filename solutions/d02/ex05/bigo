@@ -1,0 +1,2 @@
+An element in a sorted and rotated array can be found in O(log n) time
+via binary search. 
