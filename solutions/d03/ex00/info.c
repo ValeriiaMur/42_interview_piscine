@@ -6,7 +6,7 @@
 /*   By: valeriiamuradian <valeriiamuradian@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/25 15:40:21 by valeriiamur       #+#    #+#             */
-/*   Updated: 2019/03/25 20:09:14 by valeriiamur      ###   ########.fr       */
+/*   Updated: 2019/03/26 09:00:53 by valeriiamur      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int isBalanced(struct s_node *node, int *h)
   if (node == NULL) 
   { 
     *h = 0; 
-     return (1); 
+    return (1); 
   } 
   
   /* Get the heights of left and right subtrees in lh and rh  
