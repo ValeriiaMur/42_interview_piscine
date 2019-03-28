@@ -1,0 +1,1 @@
+As we are recurring in preorder, visiting every node, so the time complexity of this approach would be O(n).
