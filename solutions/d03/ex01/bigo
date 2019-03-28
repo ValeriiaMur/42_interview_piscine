@@ -1,0 +1,5 @@
+Constructing  a BST from sorted array in O(n) time is possible as we
+can get the middle element in O(1) time.
+
+Space complexity is constant or 𝑂(1) because you can modify the tree 
+in place.

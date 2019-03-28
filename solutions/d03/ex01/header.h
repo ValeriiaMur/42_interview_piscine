@@ -27,5 +27,7 @@ void printBinaryTree(struct s_node * t); //print a binary tree
   &  your own other function
   --------------------------------*/
 
+struct s_node *makingBST(int *arr, int start, int end);
+struct s_node *createNew(int data);
 
 #endif
