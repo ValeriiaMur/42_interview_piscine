@@ -17,10 +17,10 @@ int main(void)
 	launch your test here
 	--------------------*/
 
-	// printf("transform the tree to maxHeap...\n");
-	// saveTheSequoia(&root);
+	printf("transform the tree to maxHeap...\n");
+	saveTheSequoia(&root);
 
-	// printBinaryTree(root);
+	printBinaryTree(root);
 
 	return (0);
 }
