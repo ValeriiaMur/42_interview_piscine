@@ -1,0 +1,4 @@
+Time complexity: O(2^n), or exponential, since each function call 
+calls itself twice unless it has been recursed n times.
+
+Space Complexity : O(n)

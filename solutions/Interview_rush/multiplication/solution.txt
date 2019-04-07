@@ -1,0 +1,23 @@
+BRUTE FORCE!
+
+
+The simplest solution is to compute, for each element of the array, the product of all the other elements.
+O(n^2) time , O(n) space
+where n is the number of elements in the array.
+
+code:
+
+int multiplyExcept(int *arr, int n, int i) { int p = 1;
+for (int j = 0; j < n; j++) { if (j != i)
+p *= arr[j];
+}
+return (p);
+}
+
+int *multiply(int *arr, int n) {
+}
+int *res = NULL;
+if (!(res = (int *)malloc(sizeof(int) * n))) return (NULL);
+for (int i = 0; i < n; i++)
+res[i] = multiplyExcept(arr, n, i);
+return (res);

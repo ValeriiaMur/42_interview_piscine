@@ -1,0 +1,5 @@
+The heapsort algorithm involves preparing the list by first turning it
+into a max heap (recursively)
+
+Time complexity: O(n log n)
+Space complexity: O(1)

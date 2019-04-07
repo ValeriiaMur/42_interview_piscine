@@ -1,0 +1,2 @@
+Constructing from sorted array is O(n) time as we can get the middle element in O(1) time. 
+Space complexity: O(n)
